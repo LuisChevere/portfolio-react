@@ -1,16 +1,19 @@
 import React from 'react';
 import Header from './components/Header';
-import Background from './components/Background';
-import Navbar from './components/Nav';
+import Footer from './components/Footer';
+import About from './components/About';
 
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
 function App() {
   return (
-    <div>
-        <Background />
+    <div className='App'>
       <Header />
-      <Navbar/>
-      {/* <footer /> */}
+      <About />
+      {/* <Portfolio />
+      <Contact />
+      <Resume /> */}
+      {/* <Navbar/> */}
+      <Footer />
     </div>
   );
 }
