@@ -10,7 +10,7 @@ export default function Resume() {
             <br className="hidden lg:inline-block" />
           </h1>
           <p className="mb-8 leading-relaxed">
-            You can download my Resume <a className="text-white" href="https://www.dropbox.com/s/pam9npp49rhioby/LuisChevereResume.pdf?dl=0" target="_blank">Here</a>
+            You can download my Resume <a className="text-white" href="https://www.dropbox.com/s/pam9npp49rhioby/LuisChevereResume.pdf?dl=0" target="_blank" rel="noreferrer">Here</a>
             <h2 className="title-font sm:text-l text-l mb-4 font-medium text-white">Skills:</h2>
             HTML<br></br>
             CSS<br></br>
