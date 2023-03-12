@@ -23,7 +23,7 @@ SO THAT I can assess whether they're a good candidate for an open position
   
 
   ## Installation
-    View on browser <br />
+    View on browser
 
   ## Acceptance Criteria
 
@@ -58,7 +58,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
   ## Deployed App:<br /> 
   [Launched App]()
-  ![Site Image](https://github.com/LuisChevere/Portfolio-React/blob/main/portfolio-react/public/launchsite.png?raw=true)
+  ![Site Image](https://github.com/LuisChevere/portfolio-react/blob/main/public/launchsite.png?raw=true)
 
   ## Contributions
   - Luis Chevere: [@LuisChevere](https://github.com/LuisChevere) - Github
