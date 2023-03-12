@@ -1,22 +1,20 @@
 import React from "react";
+import { SocialIcon } from 'react-social-icons';
 
-function Footer() {
-    <footer>
-        <nav id='nav-wrap'>
-        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-        <ul id='nav' className='nav'>
-          <li className='current'>
-            <a className='smoothcontrol' href='github'>github</a>
-          </li>
-          <li className='current'>
-            <a className='smoothcontrol' href='#about'>LinkedIn</a>
-          </li>
-          <li className='current'>
-            <a className='smoothcontrol' href='#twitter'>Twitter</a>
-          </li>
-        </ul>
-        </nav>
-        </footer>
-};
-export default Footer;
+export default function Footer() {
+  return (
+    <footer id="footer">
+       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+        <div className="flex flex-col w-full mb-20">
+          <h1 className="sm:text-l text-l font-medium title-font mb-4 text-white">
+            Social Links
+          </h1>
+          <p className="sm:text-l text-l font-medium title-font mb-4 text-white">
+          <SocialIcon url="https://github.com/LuisChevere" />
+          <SocialIcon url="https://www.linkedin.com/in/luis-chevere-4a417575"></SocialIcon>
+       </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
