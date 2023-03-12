@@ -6,7 +6,7 @@
   - [User Story](#user-story)
   - [Description](#description)
   - [Installation](#installation)
-  - [Acceptance Criteria](#acceptancecriteria)
+  - [Acceptance Criteria](#acceptance-criteria)
   - [License](#license)
   - [Contributions](#contributions)
 
