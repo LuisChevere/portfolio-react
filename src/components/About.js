@@ -8,7 +8,7 @@ export default function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             About Me!
             <br className="hidden lg:inline-block" />
-            <img className="sm:w-64 h-70 p-4" alt="headshot" src="../headshot.jpg"></img>
+            <img className="sm:w-64 h-70 p-4" alt="headshot" src="./headshot.jpg"></img>
           </h1>
           <p className="mb-8 leading-relaxed">
           I'm a 34 year old coding student at UTSA. 
