@@ -11,7 +11,9 @@ export default function Footer() {
           </h1>
           <p className="sm:text-l text-l font-medium title-font mb-4 text-white">
           <SocialIcon url="https://github.com/LuisChevere" />
-          <SocialIcon url="https://www.linkedin.com/in/luis-chevere-4a417575"></SocialIcon>
+          <SocialIcon url="https://www.linkedin.com/in/luis-chevere-4a417575" />
+          <SocialIcon url="https://twitter.com/acrowleyy_?lang=en" />
+          <SocialIcon url="https://www.instagram.com/a.crowleyy_/?hl=en" />
        </p>
         </div>
       </div>
