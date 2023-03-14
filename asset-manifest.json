@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.52eea9db.css",
-    "main.js": "/portfolio-react/static/js/main.72f1fb40.js",
+    "main.js": "/portfolio-react/static/js/main.a1777382.js",
     "static/media/LuisChevereResume.pdf": "/portfolio-react/static/media/LuisChevereResume.8d074b38cbb965997e95.pdf",
     "index.html": "/portfolio-react/index.html",
     "main.52eea9db.css.map": "/portfolio-react/static/css/main.52eea9db.css.map",
-    "main.72f1fb40.js.map": "/portfolio-react/static/js/main.72f1fb40.js.map"
+    "main.a1777382.js.map": "/portfolio-react/static/js/main.a1777382.js.map"
   },
   "entrypoints": [
     "static/css/main.52eea9db.css",
-    "static/js/main.72f1fb40.js"
+    "static/js/main.a1777382.js"
   ]
 }
