@@ -5,6 +5,26 @@ export default function Contact() {
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
 
+  const CheckTextInput = () => {
+    //Check for the Name TextInput
+    if (!name.trim()) {
+      alert('Please Enter Name');
+      return;
+    }
+    //Check for the Email TextInput
+    if (!email.trim()) {
+      alert('Please Enter Email');
+      return;
+    }
+    if (!message.trim()) {
+      alert('Please Enter Email');
+      return;
+    }
+    //Checked Successfully
+    //Do whatever you want
+    alert('Success');
+  };
+
   function encode(data) {
     return Object.keys(data)
       .map(
@@ -69,12 +89,12 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" placeholder="Write message here"
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
           <button
-            type="submit"
+            type="submit" onPress={CheckTextInput}
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
           </button>
