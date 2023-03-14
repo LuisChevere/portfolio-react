@@ -11,7 +11,7 @@ export default function Resume() {
             <br className="hidden lg:inline-block" />
           </h1>
           <p className="mb-8 leading-relaxed">
-            You can download my Resume <a className="text-white" href={resume} download>Here</a>
+            You can download my Resume <a className="text-white" href={resume}>Here</a>
             <h2 className="title-font sm:text-l text-l mb-4 font-medium text-white">Skills:</h2>
             HTML<br></br>
             CSS<br></br>
