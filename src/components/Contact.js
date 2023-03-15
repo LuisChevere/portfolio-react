@@ -5,21 +5,24 @@ export default function Contact() {
   const [message, setMessage] = React.useState("");
 
 
-  const CheckTextInput = () => {
-    //Check for the Name TextInput
-    if (!name.trim()) {
-      alert('Please Enter Name');
+  const CheckTextInput = (event) => {
+    console.log(event.target.getAttribute("id"))
+    const blurredEl = event.target.getAttribute("id");
+
+    if (blurredEl === "name") {
+      // error
+      alert('Please enter name!')
+      return;
+    } else if (blurredEl === "email") {
+      // error
+      alert('Please enter email!')
+      return;
+    } else if (blurredEl === "message") {
+      // error
+      alert('Please enter a message!')
       return;
     }
-    //Check for the Email TextInput
-    if (!email.trim()) {
-      alert('Please Enter Email');
-      return;
-    }
-    if (!message.trim()) {
-      alert('Please Enter Email');
-      return;
-    }
+
     //Checked Successfully
     //Do whatever you want
     alert('Success');
@@ -35,6 +38,13 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
+
+    if (name === '' || email === '' || message === '') {
+      // error
+      alert("Please input requested information above!")
+      return;
+    }
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -63,7 +73,7 @@ export default function Contact() {
             <input
               type="text"
               id="name"
-              name="name"
+              name="name" onBlur={CheckTextInput}
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
             />
@@ -75,26 +85,26 @@ export default function Contact() {
             <input
               type="email"
               id="email"
-              name="email"
+              name="email" onBlur={CheckTextInput}
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
           <div className="relative mb-4">
             <label
-              htmlFor="message"
+              htmlFor="message" 
               className="leading-7 text-sm text-gray-400">
               Message
             </label>
             <textarea
               id="message"
-              name="message"
+              name="message" onBlur={CheckTextInput}
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" placeholder="Write message here"
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
           <button
-            type="submit" onClick={CheckTextInput}
+            type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
           </button>
