@@ -31,4 +31,12 @@ export const projects = [
       image: "./project-4.png",
       link: "https://spangled-banner-realty.herokuapp.com/",
     },
+    {
+      title: "Ur-Game-Review",
+      subtitle: "Full Stack application",
+      description:
+        "A game review web application",
+      image: "./project-5.png",
+      link: "https://rdalby2002.github.io/ur-game-reviews/",
+    },
   ];
