@@ -1,5 +1,21 @@
 export const projects = [
     {
+      title: "Church of Crowley",
+      subtitle: "Wordpress application",
+      description:
+        "A pro-wrestling based website for a wrestling couple",
+      image: "./churchofcrowley.png",
+      link: "https://www.churchofcrowley.com",
+    },
+    {
+      title: "Wrestleganza",
+      subtitle: "Wordpress application",
+      description:
+        "Currently a 'coming soon page' for a 2 day event",
+      image: "./wrestleganza.png",
+      link: "http://wrestleganza.com",
+    },
+    {
       title: "JATE Note Application",
       subtitle: "Progressive Web Applications",
       description:
@@ -31,12 +47,5 @@ export const projects = [
       image: "./project-4.png",
       link: "https://spangled-banner-realty.herokuapp.com/",
     },
-    {
-      title: "Ur-Game-Review",
-      subtitle: "Full Stack application",
-      description:
-        "A game review web application",
-      image: "./project-5.png",
-      link: "https://rdalby2002.github.io/ur-game-reviews/",
-    },
+   
   ];
