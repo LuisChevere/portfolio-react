@@ -18,6 +18,8 @@ export default function Resume() {
             Javascript<br></br>
             ReactJS<br></br>
             PWA<br></br>
+            Wordpress<br></br>
+            PHP <br></br>
           </p>
         </div>
       </div>
