@@ -24,14 +24,6 @@ export const projects = [
       link: "http://wrestleganza.com",
     },
     {
-      title: "JATE Note Application",
-      subtitle: "Progressive Web Applications",
-      description:
-        "A PWA note taking application",
-      image: "./project-1.png",
-      link: "https://pwa-text-editorlc.herokuapp.com/",
-    },
-    {
       title: "Password Generator",
       subtitle: "Javascript",
       description:
