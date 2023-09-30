@@ -15,8 +15,7 @@ export default function About() {
           I attended and graduated from UTSA April 2023. Web Development has changed the way<br></br>
           I think and it has been a fantastic journey. 
           I am always looking for new things to learn and work with.<br></br>
-          I consider myself a visual artist and love to collaborate with <br></br>
-          technical artist to bring ideas to life.
+          I consider myself a visual artist and love to collaborate with technical artist to bring ideas to life.
           </p>
         </div>
       </div>
