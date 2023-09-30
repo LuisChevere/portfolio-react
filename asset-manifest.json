@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/luischevereportfolio.com/static/css/main.52eea9db.css",
-    "main.js": "/luischevereportfolio.com/static/js/main.e3089436.js",
-    "static/media/LuisChResume.pdf": "/luischevereportfolio.com/static/media/LuisChResume.3794dba3617deb2ca613.pdf",
-    "index.html": "/luischevereportfolio.com/index.html",
-    "main.52eea9db.css.map": "/luischevereportfolio.com/static/css/main.52eea9db.css.map",
-    "main.e3089436.js.map": "/luischevereportfolio.com/static/js/main.e3089436.js.map"
+    "main.css": "/portfolio-react/static/css/main.52eea9db.css",
+    "main.js": "/portfolio-react/static/js/main.b41becf8.js",
+    "static/media/LuisChResume.pdf": "/portfolio-react/static/media/LuisChResume.3794dba3617deb2ca613.pdf",
+    "index.html": "/portfolio-react/index.html",
+    "main.52eea9db.css.map": "/portfolio-react/static/css/main.52eea9db.css.map",
+    "main.b41becf8.js.map": "/portfolio-react/static/js/main.b41becf8.js.map"
   },
   "entrypoints": [
     "static/css/main.52eea9db.css",
-    "static/js/main.e3089436.js"
+    "static/js/main.b41becf8.js"
   ]
 }
