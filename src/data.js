@@ -8,6 +8,14 @@ export const projects = [
       link: "https://www.churchofcrowley.com",
     },
     {
+      title: "Heathenz Entertainment",
+      subtitle: "Wordpress application",
+      description:
+        "A pro-wrestling company website with media, bio, roster list, event, contact page and a soon to come merchandise page.",
+      image: "./Heathenz.png",
+      link: "http://heathenzentertainment.com",
+    },
+    {
       title: "Wrestleganza",
       subtitle: "Wordpress application",
       description:
