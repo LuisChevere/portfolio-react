@@ -1,10 +1,12 @@
+import Crowley from './assets/churchofcrowley.png'
+
 export const projects = [
     {
       title: "Church of Crowley",
       subtitle: "Wordpress application",
       description:
         "A pro-wrestling based website for a wrestling couple",
-      image: "./churchofcrowley.png",
+      image: './assets/churchofcrowley.png',
       link: "https://www.churchofcrowley.com",
     },
     {

@@ -2,3 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-gray-900 {
+    --tw-bg-opacity: 1;
+    background-color: #54595f;
+}
+
+p {
+    color: black;
+}
+
+.bg-gray-800 {
+    --tw-bg-opacity: 1;
+    background-color: #54595f;
+}
+
+/* Navbar*/
+
+#navName {
+    color: black;
+    padding-left: 50px;
+}
+
+#nav {
+    display: inline;
+    padding: 50px;
+    color: black;
+}
+
+#navList {
+    float: inline-end;
+    padding-right: 100px;
+    background-color: transparent;
+
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: black
+}
+
+/* About */
+
+#about {
+    padding-left: 15px;
+}
+
+.aboutme {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+#headshot {
+    margin-right: 100px;
+}
+
+.par{
+    padding-top: 10px;
+    padding-right: 70px;
+  }

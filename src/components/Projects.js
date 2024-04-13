@@ -1,5 +1,46 @@
 import React from "react";
-import { projects } from "../data";
+// import { projects } from "../data";
+import Crowley from '../assets/churchofcrowley.png';
+import Elementor from '../assets/elementor.png';
+import Ganza from '../assets/wrestleganza.png'
+import Heathenz from '../assets/heathen.png'
+
+
+const projects = [
+  {
+    title: "Church of Crowley",
+    subtitle: "Wordpress application",
+    description:
+      "A pro-wrestling based website for a wrestling couple",
+    image: Crowley, // Update image path
+    link: "https://www.churchofcrowley.com",
+  },
+  {
+      title: "Elementor Portfolio",
+      subtitle: "Elementor Wordpress Plugin",
+      description:
+        "A Wordpress Elementor version of this Portfolio",
+      image: Elementor, // Update image path
+      link: "https://vfq.nyt.mybluehost.me/website_c93218db/",
+    },
+  {
+    title: "Wrestleganza",
+    subtitle: "Wordpress application",
+    description:
+      "Currently a 'coming soon page' for a 2 day event",
+    image: Ganza, // Update image path
+    link: "http://wrestleganza.com",
+  },
+  {
+      title: "Heathenz Entertainment",
+      subtitle: "Wordpress application",
+      description:
+        "A pro-wrestling company website with media, bio, roster list, event, contact page and a soon to come merchandise page.",
+      image: Heathenz, // Update image path
+      link: "http://heathenzentertainment.com",
+    },
+ 
+];
 
 export default function Projects() {
   return (

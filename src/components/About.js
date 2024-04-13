@@ -1,21 +1,18 @@
 import React from "react";
+import headshot from '../assets/newheadshot.jpg'
 
 export default function About() {
   return (
-    <section id="about">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+    <section>
+      <div className="container mx-auto flex px-10 py-20 md: flex-col">
+      <h1 id="about" className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             About Me
-            <br className="hidden lg:inline-block" />
-            <img className="sm:w-64 h-70 p-4" alt="headshot" src="./newheadshot.jpg"></img>
-          </h1>
-          <p className="mb-8 leading-relaxed">
-          I'm a 35 year old web developer specializing on Wordpress.<br></br> 
-          I attended and graduated from UTSA April 2023. Web Development has changed the way<br></br>
-          I think and it has been a fantastic journey. 
-          I am always looking for new things to learn and work with.<br></br>
-          I consider myself a visual artist and love to collaborate with technical artist to bring ideas to life.
+            <br className="hidden lg:inline-block" /></h1>
+        <div id="aboutme" className="aboutme">
+            <img id="headshot" className="sm:w-64 h-70 p-4" alt="headshot" src={headshot}></img>
+          <p className="par">
+            <strong>Front-End Web Developer</strong><br></br>
+          My name is Luis Chevere. I pursued my passion for web development by attending UTSA-San Antonio, where I completed their Full-Stack Web Development program. My journey into web development began at a young age, back in the days of customizing Myspace landing pages. Although it took me some time to reconnect with something I loved doing as a teen, in 2022, I reignited my passion for web development.
           </p>
         </div>
       </div>
