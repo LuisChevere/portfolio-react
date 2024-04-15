@@ -73,6 +73,39 @@ p {
     color: black;
 }
 
+/* Resume */
+
+.resumeSkills {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row
+}
+
+
+#skills {
+    color: black;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-right: 40px;
+}
+
+#resume h2 {
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 400px;
+    
+}
+
+.resume{
+    width:fit-content;
+    height: fit-content;
+}
+
+.download{
+    color: antiquewhite;
+}
+
   .hr {
     height: 3px;
     background-color: black;
