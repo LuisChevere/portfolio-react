@@ -106,9 +106,46 @@ p {
     color: antiquewhite;
 }
 
+/* Footer */
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 200px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.form{
+   width: 500px;
+   padding-right: 50px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.socials a + a{
+    padding-left: 3em;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
   .hr {
     height: 3px;
     background-color: black;
     margin-bottom: 50px;
     border-top-width: 0px;
+    margin-top: 100px;
+   margin-left: 100px;
+   margin-right: 150px;
   }

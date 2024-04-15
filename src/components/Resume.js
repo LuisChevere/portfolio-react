@@ -4,9 +4,10 @@ import resume from "../assets/LCResume.pdf";
 export default function Resume() {
   return (
     <section>
+      <hr className='hr'></hr>
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div id="resume" className="container px-5 py-10 mx-auto text-center lg:px-40">
-          <hr className='hr'></hr>
+          
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Resume
             <br className="hidden lg:inline-block" />
