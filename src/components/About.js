@@ -5,6 +5,7 @@ export default function About() {
   return (
     <section>
       <div className="container mx-auto flex px-10 py-20 md: flex-col">
+      <hr className='hr'></hr>
       <h1 id="about" className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             About Me
             <br className="hidden lg:inline-block" /></h1>

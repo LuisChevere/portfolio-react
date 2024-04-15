@@ -1,5 +1,5 @@
 import React from "react";
-// import { projects } from "../data";
+import { CodeIcon } from "@heroicons/react/solid";
 import Crowley from '../assets/churchofcrowley.png';
 import Elementor from '../assets/elementor.png';
 import Ganza from '../assets/wrestleganza.png'
@@ -35,7 +35,7 @@ const projects = [
       title: "Heathenz Entertainment",
       subtitle: "Wordpress application",
       description:
-        "A pro-wrestling company website with media, bio, roster list, event, contact page and a soon to come merchandise page.",
+        "A pro-wrestling company website.",
       image: Heathenz, // Update image path
       link: "http://heathenzentertainment.com",
     },
@@ -44,10 +44,10 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+    <section className="text-gray-400 bg-gray-900 body-font">
+      <div id="gallery" className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-      
+        <CodeIcon id="codeIcon" className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Projects
           </h1>

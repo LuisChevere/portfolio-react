@@ -21,6 +21,8 @@ p {
 #navName {
     color: black;
     padding-left: 50px;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 #nav {
@@ -63,4 +65,17 @@ p {
 .par{
     padding-top: 10px;
     padding-right: 70px;
+  }
+
+  /* Projects*/
+
+#codeIcon{
+    color: black;
+}
+
+  .hr {
+    height: 3px;
+    background-color: black;
+    margin-bottom: 50px;
+    border-top-width: 0px;
   }
