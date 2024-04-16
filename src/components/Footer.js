@@ -8,7 +8,7 @@ export default function Footer() {
   const handleFormSubmit = async (data, event) => {
     event.preventDefault();
 
-    await handleSubmit(data);
+    await handleSubmit(data, event);
     
     if (state.succeeded) {
       alert("Message Sent!");
@@ -20,7 +20,7 @@ export default function Footer() {
       <hr className='hr'></hr>
       <div id="footer">
         <form
-          onSubmit={handleFormSubmit}
+          onSubmit={(event) => handleFormSubmit(event)}
           className="form"
         >
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
@@ -32,12 +32,12 @@ export default function Footer() {
 
           {/* Input fields */}
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="leading-7 text-sm">
               Name
             </label>
             <input
               id="name"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-800 rounded border border-black focus:border-white focus:ring-2 focus:ring-white text-base outline-none  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               type="text"
               name="name"
             />
@@ -50,12 +50,12 @@ export default function Footer() {
 
           {/* Email field */}
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="email" className="leading-7 text-sm">
               Email
             </label>
             <input
               id="email"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-800 rounded border border-black focus:border-white focus:ring-2 focus:ring-white text-base outline-none  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               type="email"
               name="email"
             />
@@ -68,12 +68,12 @@ export default function Footer() {
 
           {/* Message field */}
           <div className="relative mb-4">
-            <label htmlFor="message" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="message" className="leading-7 text-sm">
               Message
             </label>
             <textarea
               id="message"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-800 rounded border border-black focus:border-white focus:ring-2 focus:ring-white h-32 text-base outline-none text-bal-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               placeholder="Write message here"
               name="message"
             />
@@ -88,7 +88,7 @@ export default function Footer() {
           <button
             type="submit"
             disabled={state.submitting}
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            id="btn"
           >
             {state.submitting ? 'Sending...' : 'Submit'}
           </button>
