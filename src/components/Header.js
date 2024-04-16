@@ -10,8 +10,8 @@ export default function Header() {
           <a href="#about" className="mr-5 hover:text-white">
             About Me
           </a>
-          <a href="#projects" className="mr-5 hover:text-white">
-            Project
+          <a href="#project" className="mr-5 hover:text-white">
+            Projects
           </a>
           <a href="#resume" className="mr-5 hover:text-white">
             Resume
