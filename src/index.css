@@ -73,7 +73,17 @@ p {
     color: black;
 }
 
+#gallery {
+    padding-right: 160px;
+    padding-left: 90px;
+}
+
 /* Resume */
+
+#resume {
+    padding-right: 160px;
+    padding-left: 90px;
+}
 
 .resumeSkills {
     padding-left: 15px;
@@ -84,16 +94,17 @@ p {
 
 #skills {
     color: black;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    padding-right: 40px;
+    padding-right: 78px;
+    text-align: justify;
+}
+
+#resumeCon {
+    display: flex;
+    align-items: center;
 }
 
 #resume h2 {
     display: flex;
-    justify-content:flex-start;
-    padding-left: 400px;
     
 }
 
