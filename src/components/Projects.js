@@ -46,7 +46,7 @@ export default function Projects() {
   return (
     <section className="text-gray-400 bg-gray-900 body-font">
       <hr className='hr'></hr>
-      <div id="gallery" className="container px-5 py-10 mx-auto text-center lg:px-40">
+      <div id="gallery" className="container px-5 py-10 mx-auto text-center">
         <div className="flex flex-col w-full mb-20">
         
         <CodeIcon id="codeIcon" className="mx-auto inline-block w-10 mb-4" />
