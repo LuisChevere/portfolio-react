@@ -27,9 +27,11 @@ export default function ContactForm() {
 
   return (
     <footer>
+      <div className="fullForm">
       <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">Contact</h2>
       <p className="leading-relaxed mb-5">
-        Please add any inquiries in a message below, and I will get back to you as soon as possible. Thank you!
+        Please add any inquiries in a message below,<br>
+        </br>and I will get back to you as soon as possible. Thank you!
       </p>
       <div className="relative mb-4">
         <form className="form" onSubmit={handleFormSubmit}>
@@ -89,6 +91,7 @@ export default function ContactForm() {
             Submit
           </button>
         </form>
+      </div>
       </div>
     </footer>
   );
