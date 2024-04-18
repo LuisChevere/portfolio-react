@@ -13,11 +13,11 @@ export default function Footer() {
         <div className="socials">
           <h1>Social Links</h1>
           <div className="icons">
-            <a href="https://github.com/LuisChevere" target="_blank">
-              <SocialIcon url="https://github.com/LuisChevere" target="_blank"/>
+            <a href="https://github.com/LuisChevere">
+              <SocialIcon bgColor="black" fgColor="transparent" url="https://github.com/LuisChevere" target="_blank"/>
             </a>
             <a href="https://www.linkedin.com/in/luis-chevere-4a417575">
-              <SocialIcon url="https://www.linkedin.com/in/luis-chevere-4a417575" />
+              <SocialIcon bgColor="black" fgColor="transparent" url="https://www.linkedin.com/in/luis-chevere-4a417575" target="_blank" />
             </a>
           </div>
         </div>
