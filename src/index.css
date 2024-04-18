@@ -62,14 +62,14 @@ p {
     margin-right: 100px;
 }
 
-.par{
+.par {
     padding-top: 10px;
     padding-right: 70px;
-  }
+}
 
-  /* Projects*/
+/* Projects*/
 
-#codeIcon{
+#codeIcon {
     color: black;
 }
 
@@ -105,15 +105,15 @@ p {
 
 #resume h2 {
     display: flex;
-    
+
 }
 
-.resume{
-    width:fit-content;
+.resume {
+    width: fit-content;
     height: fit-content;
 }
 
-.download{
+.download {
     color: antiquewhite;
 }
 
@@ -128,22 +128,22 @@ p {
     padding-bottom: 20px;
 }
 
-.form{
-   width: 500px;
-   padding-right: 50px;
-   color: black;
-   background-color: #54595f;
+.form {
+    width: 500px;
+    padding-right: 50px;
+    color: black;
+    background-color: #54595f;
 }
 
-#btn{
+#btn {
     border-radius: 5px;
     color: black;
     width: 100px;
     height: 50px;
-    background-color: #54595f; 
-  color: black; 
-  border: 2px solid #030303;
-  transition-duration: 0.4s;
+    background-color: #54595f;
+    color: black;
+    border: 2px solid #030303;
+    transition-duration: 0.4s;
 }
 
 #btn:hover {
@@ -153,7 +153,7 @@ p {
 
 /*Social Icons*/
 
-.socials{
+.socials {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,7 +161,7 @@ p {
     color: black;
 }
 
-.socials a + a{
+.socials a+a {
     padding-left: 3em;
 }
 
@@ -170,14 +170,58 @@ p {
     flex-direction: row;
     padding-top: 20px;
     padding-left: 5px;
-}  
+}
 
-  .hr {
+.hr {
     height: 3px;
     background-color: black;
     margin-bottom: 50px;
     border-top-width: 0px;
     margin-top: 100px;
-   margin-left: 100px;
-   margin-right: 150px;
-  }
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+
+/*mobile responsive*/
+@media only screen and (min-width: 480px) {
+    .body {
+        justify-content: center;
+    }
+
+    /* Nav */
+    #nav {
+        text-align: center;
+    }
+
+    #navList {
+        text-align: center;
+    }
+
+    /* About Me*/
+
+    #about {
+       text-align: center;
+       padding-left: 0;
+    }
+
+    #headshot {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        width: auto;
+        margin-right: 50px;
+    }
+
+    .par {
+        text-align: center;
+        padding-right: 50px;
+    }
+
+    .hr{
+        display: flex;
+        justify-content: center;
+        margin-right: 104px !important;
+    }
+
+}
