@@ -151,11 +151,14 @@ p {
     color: #54595f;
 }
 
+/*Social Icons*/
+
 .socials{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    color: black;
 }
 
 .socials a + a{
@@ -167,7 +170,7 @@ p {
     flex-direction: row;
     padding-top: 20px;
     padding-left: 5px;
-}
+}  
 
   .hr {
     height: 3px;
